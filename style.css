@@ -135,11 +135,32 @@ h1 {
     background-color: #ff595920;
 }
 
-.bonus-section-area{
-    display: flex;
+.bonus-section-text{
+    margin: 10%;
     width:50%;
 }
 
+.bonus-section-area{
+    display: flex;
+    padding: 0% 5% 5% 5%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-right: 8%;
+}
+
+.bonus-section-area h2{
+    font-size:25px;
+    font-weight: 700;
+    text-align:left;
+}
+
+.bonus-section-area p{
+    text-align: justify;
+}
+
+.bonus-section-area img{
+    width: 100%;
+}
 
 
 
@@ -155,7 +176,7 @@ h1 {
     margin-right: 20%;
     padding: 50px;
     border-radius: 5px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
 }
 
