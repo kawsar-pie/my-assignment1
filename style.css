@@ -1,0 +1,93 @@
+.intro-part{
+    background-image: url(images/donation6.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: 900;
+    padding: 230px 300px 230px 310px;
+}
+
+body{
+    margin:0 0 0 0;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.donate-button{
+    background-image: linear-gradient(#FF5959,tomato);
+    padding:10px 30px;
+    color:white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.donate-today-area{
+    padding-top:100px;
+    padding-bottom:100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align:center;
+}
+
+.donate-today-text p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20% ;
+}
+
+.donate-today-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.donate-today-tk{
+    display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.donate-today-xtk{
+    background-color:#FAFAFA;
+    text-align: center;
+    font-weight: 900;
+    color:#707070;
+    padding:10px 20px 10px 20px;
+    margin:2%;
+    margin-bottom: 5%;
+    width:50%;
+    border-radius: 10px;
+    border: 3px;
+    border: 3px solid ;
+}
+
+.donate-today-xtk:hover{
+    border-color:3px solid #FF5959;
+    color:#FF5959; 
+}
+
+.donate-today-area input[type ="text"]{
+    text-align:center;
+    border:2px solid #FF5959;
+    padding: 10px 0px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.donate-today-area input[type ="submit"]{
+    text-align:center;
+    text-decoration: none;
+    border:2px solid #FF5959;
+    margin-top:10px;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+}
