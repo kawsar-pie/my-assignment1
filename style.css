@@ -75,7 +75,8 @@ h1{
 
 .donate-today-area input[type ="text"]{
     text-align:center;
-    border:2px solid #FF5959;
+    border:2px solid white;
+    color:#707070;
     padding: 10px 0px;
     width: 250px;
     border-radius: 10px;
@@ -90,4 +91,55 @@ h1{
     width: 150px;
     text-align: center;
     font-weight: 700;
+}
+
+.donate-plan{
+    display:flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:#707070;
+}
+
+.donate-plan h2{
+    color:black;
+    text-align: left;
+}
+
+.donate-plan-food{
+    background-color:#94c0c554;
+    text-align: justify;
+    font-weight: 900;
+    color:#707070;
+    padding:10px 20px 10px 20px;
+    margin:2%;
+    margin-bottom: 5%;
+    width:50%;
+    border-radius: 10px;
+    padding-top:50px;
+}
+
+.donate-plan-shelter{
+    background-color:rgba(32, 193, 32, 0.249);
+    text-align: justify;
+    font-weight: 900;
+    color:#707070;
+    padding:10px 20px 10px 20px;
+    margin:2%;
+    margin-bottom: 5%;
+    width:50%;
+    border-radius: 10px;
+    padding-top:50px;
+}
+
+.donate-plan-education{
+    background-color:#ff595920;
+    text-align: justify;
+    font-weight: 900;
+    color:#707070;
+    padding:10px 20px 10px 20px;
+    margin:2%;
+    margin-bottom: 5%;
+    width:50%;
+    border-radius: 10px;
+    padding-top:50px;
 }
