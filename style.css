@@ -163,13 +163,6 @@ h1 {
 }
 
 
-
-
-
-
-
-
-
 .subscription {
     background-color: #FFF4D6;
     margin-left: 20%;
@@ -189,7 +182,7 @@ h1 {
     border-radius: 5px;
     margin-top: 10px;
     width: 250px;
-    height: 35px;
+    height: 40px;
     font-weight: 600;
     margin-left: 200px
 }
