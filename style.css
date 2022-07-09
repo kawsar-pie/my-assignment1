@@ -1,5 +1,6 @@
 .intro-part {
     background-image: url(images/donation6.jpg);
+    /* background-image: linear-gradient(gray,rgb(53, 49, 49)); */
     background-position: center;
     background-size: cover;
     color: white;
@@ -113,6 +114,7 @@ h1 {
 
 .donate-plan-common {
     text-align: justify;
+    box-shadow: 5px 5px 10px rgb(131, 116, 116);
     font-weight: 900;
     color: #707070;
     padding: 20px 20px 50px 20px;
@@ -121,6 +123,10 @@ h1 {
     width: 50%;
     border-radius: 10px;
     padding-top: 50px;
+}
+
+.donate-plan-common:hover {
+    box-shadow: 5px 5px 20px rgb(131, 116, 116);
 }
 
 #donate-plan-food {
@@ -135,12 +141,12 @@ h1 {
     background-color: #ff595920;
 }
 
-.bonus-section-text{
+.bonus-section-text {
     margin: 10%;
-    width:50%;
+    width: 50%;
 }
 
-.bonus-section-area{
+.bonus-section-area {
     display: flex;
     padding: 0% 5% 5% 5%;
     padding-top: 80px;
@@ -148,23 +154,24 @@ h1 {
     margin-right: 8%;
 }
 
-.bonus-section-area h2{
-    font-size:25px;
+.bonus-section-area h2 {
+    font-size: 25px;
     font-weight: 700;
-    text-align:left;
+    text-align: left;
 }
 
-.bonus-section-area p{
+.bonus-section-area p {
     text-align: justify;
 }
 
-.bonus-section-area img{
+.bonus-section-area img {
     width: 100%;
 }
 
 
 .subscription {
     background-color: #FFF4D6;
+    box-shadow: 5px 5px 20px rgb(131, 116, 116);
     margin-left: 20%;
     margin-right: 20%;
     padding: 50px;
@@ -197,13 +204,14 @@ h1 {
     text-decoration: none;
     color: white;
     background-color: #FF5959;
-    border: 1px solid;
-    border-radius: 5px;
+    border: 0px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin-top: 10px;
-    width: 150px;
+    width: 100px;
     height: 40px;
     font-weight: 600;
-    margin-left: 0;
+    margin-left: -10px;
 }
 
 footer {
